@@ -29,7 +29,7 @@ public class WebAppUnderTest
 		//finding element for username txtbox
 		element =  driver.findElement(By.id("Email"));
 		//sending strings to element
-		element.sendKeys("Testing@email.com");
+		element.sendKeys("newbranchadded@email.com");
 		
 		driver.close();
 		System.out.println("The Browser is closed");

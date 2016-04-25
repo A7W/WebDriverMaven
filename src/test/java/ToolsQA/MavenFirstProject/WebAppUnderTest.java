@@ -19,7 +19,7 @@ public class WebAppUnderTest
 		
 		System.out.println("The browser opens");
 		
-		driver.get("http://www.gmailhhg.com");
+		driver.get("http://www.gmail.com");
 		System.out.println("The URL is entered");
 		System.out.println("...waiting for 5 seconds before closing Browser");
 		

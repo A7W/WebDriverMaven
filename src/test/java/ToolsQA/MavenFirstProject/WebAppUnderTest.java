@@ -13,12 +13,13 @@ public class WebAppUnderTest
 	@Test
 	public void NavigateToURL() throws InterruptedException {
 		
+	
 		WebDriver driver  = new FirefoxDriver();
 		WebElement element;
 		
-		System.out.println("The Browser is open");
+		System.out.println("The browser opens");
 		
-		driver.get("http://www.gmail.com");
+		driver.get("http://www.gmailhhg.com");
 		System.out.println("The URL is entered");
 		System.out.println("...waiting for 5 seconds before closing Browser");
 		
